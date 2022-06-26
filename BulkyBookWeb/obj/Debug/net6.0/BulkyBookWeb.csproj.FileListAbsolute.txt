@@ -381,3 +381,7 @@
 /home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/obj/Debug/net6.0/BulkyBookWeb.MvcApplicationPartsAssemblyInfo.cs
+/home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.DataAccess.dll
+/home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Models.dll
+/home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.DataAccess.pdb
+/home/vagner/RiderProjects/BulkyBook/BulkyBookWeb/bin/Debug/net6.0/BulkyBook.Models.pdb

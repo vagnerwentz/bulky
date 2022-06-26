@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace BulkyBookWeb.Models;
@@ -10,7 +11,8 @@ public class Category
     [Required]
     public string Name { get; set; }
     
-    
+    [DisplayName("display order")]
+    [Range(1,100, ErrorMessage = "Display Order must be between 1 and 100.")]
     public int DisplayOrderType { get; set; }
     
     

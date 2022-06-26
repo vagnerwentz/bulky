@@ -29,14 +29,14 @@ public class CategoryController : Controller
         if (id == null || id == 0)
             return NotFound();
 
-        var category = _db.Categories.Find(id);
-        // var categoryFromFirst = _db.Categories.FirstOrDefault(category => category.Id == id);
+        // var category = _db.Categories.Find(id);
+        var categoryFromFirst = _db.Categories.FirstOrDefault(category => category.Id == id);
         // var categoryFromSingle = _db.Categories.SingleOrDefault(category => category.Id == id);
 
-        if (category == null)
+        if (categoryFromFirst == null)
             return NotFound();
         
-        return View(category);
+        return View(categoryFromFirst);
     }
     
     [HttpPost]
@@ -50,7 +50,7 @@ public class CategoryController : Controller
         {
             _db.Categories.Update(category);
             _db.SaveChanges();
-            TempData["success"] = "Category updated succesfuly";
+            TempData["success"] = "Category updated succesfully";
             return RedirectToAction("Index");    
         }
 

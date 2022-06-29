@@ -23,18 +23,22 @@
 
     <ItemGroup>
       <Compile Remove="Pages\**" />
+      <Compile Remove="Migrations\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="Pages\**" />
+      <EmbeddedResource Remove="Migrations\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Pages\**" />
+      <None Remove="Migrations\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Remove="Pages\**" />
+      <Content Remove="Migrations\**" />
     </ItemGroup>
 
     <ItemGroup>
